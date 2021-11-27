@@ -40,6 +40,9 @@
     <ItemGroup>
         <Compile Include="format\ClassFormatter.cs" />
         <Compile Include="format\ConstructorFormatter.cs" />
+        <Compile Include="format\FieldFormatter.cs" />
+        <Compile Include="format\MethodFormatter.cs" />
+        <Compile Include="format\PropertiesFormatter.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
