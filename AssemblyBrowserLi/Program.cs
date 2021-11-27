@@ -8,7 +8,7 @@ using static System.Reflection.BindingFlags;
 
 namespace AssemblyBrowserLib
 {
-    public class Program
+    internal class Program
     {
         public List<Container> GetAssemblyInfo(string filePath)
         {
