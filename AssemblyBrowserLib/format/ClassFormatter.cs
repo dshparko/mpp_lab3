@@ -2,18 +2,19 @@
 
 namespace AssemblyBrowserLib.format
 {
-    public class ClassFormatter
+    public static class ClassFormatter
     {
         public static string Format(Type type)
         {
-            var nameSpace = type.Namespace;
+            
+            var na = type.Namespace;
             var name = type.Name;
 
             var result = string.Join(" ", GetTypeAccessorModifiers(type), GetTypeModifiers(type),
                 GetType(type), type.Name);
             return result;
         }
-        
+
         private static string GetTypeAccessorModifiers(Type type)
         {
             if (type.IsNestedPublic || type.IsPublic)
@@ -30,6 +31,7 @@ namespace AssemblyBrowserLib.format
                 return "private protected ";
             if (type.IsNotPublic)
                 return "private ";
+
             return "";
         }
         
@@ -44,7 +46,7 @@ namespace AssemblyBrowserLib.format
 
             return "";
         }
-        
+
         private static string GetType(Type type)
         {
             if (type.IsClass)

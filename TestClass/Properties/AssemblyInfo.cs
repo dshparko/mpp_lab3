@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AssemblyBrowserLib")]
+[assembly: AssemblyTitle("TestClass")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AssemblyBrowserLib")]
+[assembly: AssemblyProduct("TestClass")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("F3034A85-383B-4CF1-9B5C-C2E3F2BD2922")]
+[assembly: Guid("773BABD2-2C48-4F8C-B148-1F72F2800294")]
 
 // Version information for an assembly consists of the following four values:
 //

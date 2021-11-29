@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -8,7 +9,7 @@ using static System.Reflection.BindingFlags;
 
 namespace AssemblyBrowserLib
 {
-    internal class Program
+    public class AssemblyBrowser
     {
         public List<Container> GetAssemblyInfo(string filePath)
         {
@@ -80,4 +81,5 @@ namespace AssemblyBrowserLib
         { 
             return type.GetProperties().Select( property => new MemberInfo(PropertiesFormatter.Format(property), ClassFormatter.Format(type))).ToList();} //Instance | Static | Public | NonPublic
         }
-}
+        
+    }

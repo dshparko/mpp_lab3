@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using JetBrains.Annotations;
 using Microsoft.Win32;
+using View.Annotations;
 using Container = AssemblyBrowserLib.Container;
-namespace mpp_lab3
+
+namespace View
 {
-    
-   public sealed class ModelView : INotifyPropertyChanged
+    public sealed class ModelView : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -64,5 +64,5 @@ namespace mpp_lab3
             }
         }
     }
-
+    
 }

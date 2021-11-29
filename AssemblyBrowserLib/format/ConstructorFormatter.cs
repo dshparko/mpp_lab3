@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace AssemblyBrowserLib.format
 {
-    public class ConstructorFormatter
+    public static class ConstructorFormatter
     {
         public static string Format(ConstructorInfo constrInfo)
         {
@@ -14,7 +14,7 @@ namespace AssemblyBrowserLib.format
                 GetName(constrInfo), GetConstructArguments(constrInfo));
             return result;
         }
-        
+
         private static string GetName(ConstructorInfo constrInfo)
         {
             return constrInfo.Name; 

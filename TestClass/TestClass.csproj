@@ -4,11 +4,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{F3034A85-383B-4CF1-9B5C-C2E3F2BD2922}</ProjectGuid>
-        <OutputType>Library</OutputType>
+        <ProjectGuid>{773BABD2-2C48-4F8C-B148-1F72F2800294}</ProjectGuid>
+        <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>AssemblyBrowserLib</RootNamespace>
-        <AssemblyName>AssemblyBrowserLib</AssemblyName>
+        <RootNamespace>TestClass</RootNamespace>
+        <AssemblyName>TestClass</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -31,9 +31,6 @@
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '|AnyCPU' ">
-      <OutputPath>bin\\</OutputPath>
-    </PropertyGroup>
     <ItemGroup>
         <Reference Include="System" />
         <Reference Include="System.Core" />
@@ -41,16 +38,16 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="AssemblyBrowser.cs" />
-        <Compile Include="Container.cs" />
-        <Compile Include="format\ClassFormatter.cs" />
-        <Compile Include="format\ConstructorFormatter.cs" />
-        <Compile Include="format\FieldFormatter.cs" />
-        <Compile Include="format\MethodFormatter.cs" />
-        <Compile Include="format\PropertiesFormatter.cs" />
-        <Compile Include="MemberInfo.cs" />
-        <Compile Include="NamespaceInfo.cs" />
+        <Compile Include="A.cs" />
+        <Compile Include="NewDirectory\User.cs" />
+        <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\AssemblyBrowserLib\AssemblyBrowserLib.csproj">
+        <Project>{f3034a85-383b-4cf1-9b5c-c2e3f2bd2922}</Project>
+        <Name>AssemblyBrowserLib</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

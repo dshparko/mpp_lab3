@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mpp_lab3", "mpp_lab3\mpp_la
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowserLib", "AssemblyBrowserLib\AssemblyBrowserLib.csproj", "{D9D40037-06D1-4DB4-847A-697BF6C9AD43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1C8CB6E3-5C9E-4A86-BC82-4743DDD17D4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D9D40037-06D1-4DB4-847A-697BF6C9AD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D40037-06D1-4DB4-847A-697BF6C9AD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D40037-06D1-4DB4-847A-697BF6C9AD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8CB6E3-5C9E-4A86-BC82-4743DDD17D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8CB6E3-5C9E-4A86-BC82-4743DDD17D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8CB6E3-5C9E-4A86-BC82-4743DDD17D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8CB6E3-5C9E-4A86-BC82-4743DDD17D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

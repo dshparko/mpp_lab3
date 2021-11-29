@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace AssemblyBrowserLib
 {
-    public class Container: MemberInfo
+    public class Container : MemberInfo
     {
         public List<MemberInfo> Members { get; set; }
         
@@ -15,5 +16,7 @@ namespace AssemblyBrowserLib
         {
             Members = new List<MemberInfo>();
         }
+        
+        
     }
 }

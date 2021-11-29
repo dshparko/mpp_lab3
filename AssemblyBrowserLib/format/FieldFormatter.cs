@@ -6,9 +6,9 @@ using System.Text.RegularExpressions;
 
 namespace AssemblyBrowserLib.format
 {
-    public class FieldFormatter
+    public static class FieldFormatter
     {
-         public static string Format(FieldInfo fieldInfo)
+        public static string Format(FieldInfo fieldInfo)
         {
             var result = string.Join(" ", GetTypeAccessorModifiers(fieldInfo), GetTypeModifiers(fieldInfo),
                 GetType(fieldInfo), fieldInfo.Name);

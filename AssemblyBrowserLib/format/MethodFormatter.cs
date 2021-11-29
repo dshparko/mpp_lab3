@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace AssemblyBrowserLib.format
 {
-    public class MethodFormatter
+    public static class MethodFormatter
     {
         public static string Format(System.Reflection.MethodInfo methodInfo)
         {
