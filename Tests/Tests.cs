@@ -10,13 +10,32 @@ namespace Tests
         private const string TestDirectory = "C:\\Users\\Lenovo\\OneDrive - bsuir.by\\Рабочий стол\\Lab3_AssemblyBrowser\\Tests\\TestFiles\\";
 
         [Test]
-        public void DllBrowserWorkFinishedCorrectly()
+        public void DllBrowserIsNotEmpty()
         {
-            _browser.GetAssemblyInfo(TestDirectory+"AssemblyBrowserLib.dll");
             
-            Assert.True(true);
+            int expected = 0;
+            int actual = _browser.GetAssemblyInfo(TestDirectory+"AssemblyBrowserLib.dll").Count;
+            Assert.AreNotEqual(expected,actual);
+         //   Assert.True(true);
         }
         
+        [Test]
+        public void CorrectClassCount()
+        {
+            int expected = 3;
+            int actual = _browser.GetAssemblyInfo(TestDirectory+"TestClass.exe")[0].Members.Count;
+            Assert.AreEqual(expected, actual);
+        }
+        [Test]
+        public void ClassHasCorrectMembersCount()
+        {
+            int expected = 2;
+            Container container = (Container)_browser.GetAssemblyInfo(TestDirectory+"TestClass.exe")[0].Members[0];
+            int actual = container.Members.Count;
+            Assert.AreEqual(expected, actual);
+        }
+
+
         [Test]
         public void ExeBrowserWorkFinishedCorrectly()
         {
@@ -48,14 +67,7 @@ namespace Tests
             ;
             Assert.IsTrue(assemblyInfo[0].Class.Equals("public  class  A") );
         }
-        
-        [Test]
-        public void MethodAmountIsCorrect()
-        {
-            var assemblyInfo = _browser.GetAssemblyInfo(TestDirectory+"TestClass.exe");
-            ;
-            Assert.AreEqual(assemblyInfo[0].Members.Count, 3);
-        }
+     
         
         [Test]
         public void MethodNotNull()

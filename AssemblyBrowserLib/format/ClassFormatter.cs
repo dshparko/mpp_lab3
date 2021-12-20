@@ -47,6 +47,7 @@ namespace AssemblyBrowserLib.format
             return "";
         }
 
+        
         private static string GetType(Type type)
         {
             if (type.IsClass)
