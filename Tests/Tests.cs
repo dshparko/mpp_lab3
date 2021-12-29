@@ -12,11 +12,9 @@ namespace Tests
         [Test]
         public void DllBrowserIsNotEmpty()
         {
-            
             int expected = 0;
             int actual = _browser.GetAssemblyInfo(TestDirectory+"AssemblyBrowserLib.dll").Count;
             Assert.AreNotEqual(expected,actual);
-         //   Assert.True(true);
         }
         
         [Test]
@@ -36,22 +34,6 @@ namespace Tests
         }
 
 
-        [Test]
-        public void ExeBrowserWorkFinishedCorrectly()
-        {
-            _browser.GetAssemblyInfo(TestDirectory+"TestClass.exe");
-            
-            Assert.True(true);
-        }
-        
-        [Test]
-        public void ExeBrowserWorkFinishedCorrectly2()
-        {
-            _browser.GetAssemblyInfo(TestDirectory+"View.exe");
-            
-            Assert.True(true);
-        }
-        
         [Test]
         public void NameSpaceIsCorrect()
         {

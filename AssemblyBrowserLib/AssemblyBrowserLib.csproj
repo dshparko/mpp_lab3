@@ -50,6 +50,7 @@
         <Compile Include="format\PropertiesFormatter.cs" />
         <Compile Include="MemberInfo.cs" />
         <Compile Include="NamespaceInfo.cs" />
+        <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

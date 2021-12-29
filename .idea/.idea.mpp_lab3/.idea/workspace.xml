@@ -8,15 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d16774ac-336e-4b3c-b0b9-9e4400010ebc" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/mpp_lab3.sln.DotSettings.user" afterDir="false" />
+    <list default="true" id="d16774ac-336e-4b3c-b0b9-9e4400010ebc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mpp_lab3/.idea/shelf/Uncommitted_changes_before_Update_at_20_12_2021_15_47_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mpp_lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mpp_lab3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssemblyBrowserLib/AssemblyBrowser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyBrowserLib/AssemblyBrowser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssemblyBrowserLib/format/ClassFormatter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyBrowserLib/format/ClassFormatter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestClass/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestClass/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestClass/TestClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestClass/TestClass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/packages.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +114,10 @@
       <workItem from="1639490711436" duration="6341000" />
       <workItem from="1639545320010" duration="108000" />
       <workItem from="1639554188260" duration="1887000" />
-      <workItem from="1640003199356" duration="667000" />
+      <workItem from="1640003199356" duration="8915000" />
+      <workItem from="1640188818247" duration="10466000" />
+      <workItem from="1640200270431" duration="84000" />
+      <workItem from="1640787479029" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1637945308263</created>
@@ -176,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638210266115</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="a">
+      <created>1640004460615</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640004460615</updated>
+    </task>
+    <task id="LOCAL-00010" summary="other files">
+      <created>1640004477230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640004477230</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +224,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="add changes" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="other files" />
+    <option name="LAST_COMMIT_MESSAGE" value="other files" />
   </component>
 </project>

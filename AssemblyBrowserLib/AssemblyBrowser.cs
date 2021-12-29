@@ -52,7 +52,6 @@ namespace AssemblyBrowserLib
         {
             var methodInfos = new List<MemberInfo>();
 
-            methodInfos.AddRange(GetConstructors(type));
             
             foreach (var method in type.GetMethods(Instance | Static | Public | NonPublic | DeclaredOnly))
             {
